@@ -1,0 +1,28 @@
+.accordian{
+    max-width: 400px;
+    margin: auto;
+    padding: 10px 10px;
+    &-question{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        font-size: 25px;
+        gap:10px;
+        border: 1px solid gray;
+        background: lightgrey;
+        border-radius: 8px;
+        padding: 5px 10px;
+        cursor: pointer;
+        color: gray;
+    }
+    &-answer{
+        font-size: 25px;
+        gap:10px;
+        border: 1px solid gray;
+        background: lightgrey;
+        border-radius: 8px;
+        padding: 5px 10px;
+        color: rgb(75, 72, 72);
+        margin-top: 10px;
+    }
+}
